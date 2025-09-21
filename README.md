@@ -1,4 +1,4 @@
-#
+# 基礎学習ターム 確認テスト_もぎたて
 ## 環境構築
 **Dockerビルド**
 1.`git clone git@https://github.com/shino-ym/shinobu.yamaguchi-kadai2`
@@ -10,21 +10,21 @@
 1. `docker-compose exec php bash`
 2. `composer install`
 3. `cp .env.example .env`
-4. 「.env」に以下の環境変数を追加  
+4. 「.env」に以下の環境変数を追加
 ```
-DB_CONNECTION=mysql  
-DB_HOST=mysql  
-DB_PORT=3306  
-DB_DATABASE=laravel_db  
-DB_USERNAME=laravel_user  
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel_db
+DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 ```
 
-5. アプリケーションキーの作成  
+5. アプリケーションキーの作成
 `php artisan key:generate`
-6. マイグレーションの実行  
+6. マイグレーションの実行
 `php artisan migrate`
-7. シーディングの実行  
+7. シーディングの実行
 `php artisan db:seed`
 
 ## 使用技術
@@ -35,8 +35,8 @@ DB_PASSWORD=laravel_pass
 ## ER図
 
 ## URL
-- 開発環境：http://localhost/
+- 開発環境：http://localhost/products
 - phpMyAdmin:：http://localhost:8080/
- 
+
 
 
