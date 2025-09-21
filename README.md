@@ -8,9 +8,13 @@
 
 **Laravel環境構築**
 1. `docker-compose exec php bash`
-2. `composer install`
-3. `cp .env.example .env`
-4. 「.env」に以下の環境変数を追加
+2. `cd /var/www `
+3. `mkdir -p storage/framework/{cache,sessions,views}`
+4. `chmod -R 775 storage bootstrap/cache`
+5. `chown -R www-data:www-data storage bootstrap/cache`
+6. `composer install`
+7. `cp .env.example .env`
+8. 「.env」に以下の環境変数を追加
 ```
 DB_CONNECTION=mysql
 DB_HOST=mysql
