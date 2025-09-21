@@ -24,13 +24,9 @@ DB_PASSWORD=laravel_pass
 `php artisan key:generate`
 6. マイグレーションの実行
 `php artisan migrate`
-7. docker-cpmpose.ymlの「volume」に以下を追加
-```
-- ./storage:/var/www/storage
-```
-8. ストレージリンクの作成
+7. ストレージリンクの作成
 `php artisan storage:link`
-9. シーディングの実行
+8. シーディングの実行
 `php artisan db:seed`
 
 ## 使用技術
