@@ -25,13 +25,13 @@
 .page-item.active .page-link {
     background-color: #FFD700;
     border-radius: 50%;
-    color: #4B4B4B;;
+    color: #4B4B4B;
 }
 
 .page-item:not(.active) .page-link:hover {
-    background-color: #fff;
+    background-color: #E0DFDE;
     border-radius: 50%;
-    color: #4B4B4B;;
+    color: #4B4B4B;
 }
 
 .page-item.disabled .page-link {
