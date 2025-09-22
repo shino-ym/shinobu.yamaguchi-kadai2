@@ -17,8 +17,8 @@ yarn-error.log
 # storage 以下は基本無視
 /storage/*
 
-# ただし追跡したいディレクトリ
+# ただし追跡したいディレクトリとその中身
 !/storage/app/
 !/storage/app/public/
 !/storage/app/public/img/
-!/storage/app/public/img/*
+!/storage/app/public/img/**
